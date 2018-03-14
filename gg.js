@@ -30,7 +30,7 @@ function loadJSON(url){
   })
 }
 
-var myPromise = loadJSON("main.json");
+var myPromise = loadJSON("data.json");
 
 myPromise.then( data => {
   console.log(data);
